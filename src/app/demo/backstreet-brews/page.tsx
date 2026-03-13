@@ -32,6 +32,13 @@ const media = [
     url: "https://v3b.fal.media/files/b/0a9202b4/lR4dtyM6aLB1o37gWJM8v_25s2DPoy.png"
   },
   {
+    type: "image",
+    label: "Branded Hero Shot",
+    sublabel: "Your name on the mug",
+    tag: "✏️ Branded",
+    url: "https://v3b.fal.media/files/b/0a920328/o-efDSPQYUIoZD87Flo7H_lsrozM8Y.png"
+  },
+  {
     type: "video",
     label: "Video Commercial",
     sublabel: "Website · Reels · TikTok",
