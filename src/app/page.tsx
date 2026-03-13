@@ -54,11 +54,12 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">Sound familiar?</h2>
           <p className="text-zinc-400 text-center text-lg mb-16 max-w-xl mx-auto">We built this for exactly these three founders.</p>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { emoji:"🤷", title:"I know I should be using AI, but I do not know where to start.", desc:"You have heard the hype. You believe it. You just do not have the time or technical background to figure it out yourself. We do it for you.", cta:"We do the setup." },
               { emoji:"🚀", title:"I want to use agents but have no idea how to set them up.", desc:"You have seen what is possible. You are ready to move. You just need someone to hand you a working system instead of another tutorial.", cta:"We hand you the keys." },
               { emoji:"😤", title:"I tried AI tools but they did not really work for my business.", desc:"You are not wrong — most AI tools fail founders because they are generic. The difference is agents built around your specific workflow, goals, and products.", cta:"We fix what failed." },
+              { emoji:"🏢", title:"I already run a successful business and I do not want AI to freak out my staff or break what is working.", desc:"You do not need to rebuild anything. AI layers on top of what you have — handling the repetitive, invisible work so your team focuses on what humans do best. Your staff will barely notice the transition.", cta:"We integrate, we do not disrupt." },
             ].map((item) => (
               <div key={item.title} className="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 hover:border-violet-500/40 transition-all duration-300">
                 <div className="text-4xl mb-4">{item.emoji}</div>
