@@ -39,6 +39,20 @@ const media = [
     url: "https://v3b.fal.media/files/b/0a920328/o-efDSPQYUIoZD87Flo7H_lsrozM8Y.png"
   },
   {
+    type: "image",
+    label: "Outdoor Patio Shot",
+    sublabel: "Their actual patio · Lifestyle",
+    tag: "☀️ Location",
+    url: "https://v3b.fal.media/files/b/0a920345/9M6eL_0r4OMbAv_vZAhu6_PbGgGJKT.png"
+  },
+  {
+    type: "image",
+    label: "Cafe Counter Shot",
+    sublabel: "Their actual interior · Menu",
+    tag: "☕ Interior",
+    url: "https://v3b.fal.media/files/b/0a92035d/ff9bbx2nFtjvQ7T-AT6aQ_9LD86Nhl.png"
+  },
+  {
     type: "video",
     label: "Video Commercial",
     sublabel: "Website · Reels · TikTok",
